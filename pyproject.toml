@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bright-tone-pitch"
+version = "0.1.0"
+description = "Service generating Pitch Deck based on the project description"
+authors = [
+    "Danil Islamov <danislamoff@gmail.com>",
+    "Andrew Shalashov <mgduck@yandex.ru>",
+    "Mikhail Martyanov <martyanovmp@gmail.com>"
+]
+readme = "README.md"
+packages = [{include = "bright_tone_pitch"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
