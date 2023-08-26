@@ -12,6 +12,12 @@ packages = [{include = "bright_tone_pitch"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+jupyter = "^1.0.0"
+torch = "^2.0.1"
+transformers = "^4.32.0"
+sentencepiece = "^0.1.99"
+protobuf = "^4.24.2"
+gradio = "^3.41.2"
 
 
 [build-system]
