@@ -18,6 +18,9 @@ transformers = "^4.32.0"
 sentencepiece = "^0.1.99"
 protobuf = "^4.24.2"
 gradio = "^3.41.2"
+python-pptx = "^0.6.21"
+qrcode = "^7.4.2"
+accelerate = "^0.22.0"
 
 
 [build-system]
